@@ -33,5 +33,7 @@ All the QR codes will save in a directory called "qrcodes". *This is the only di
 
 ### Email Sending
 Only works from local machines (no collab or online notebooks will work).  
+
 Jupyter notebook that sends emails. Read through the notebook to get an idea of what each cell does and what you need to modify to change the message body/attachments/etc.  
-*Important: Running sequentially will prompt you to sign in to your Gmail account with your currently active browser. This is just to authenticate your Gmail account with your Google Cloud app, which allows you to use the Gmail API. Sign in with the email you wish to use for sending.*
+
+*Important: Running sequentially will prompt you to sign in to your Gmail account with your currently active browser. This is just to authenticate your Gmail account with your Google Cloud app, which allows you to use the Gmail API. Sign in with the email you wish to use for sending. You may get a security warning telling you that the app is potentially unsafe, but as long as you recognize the name of the app and the app creator's email is an email you recognize, you are fine.*
