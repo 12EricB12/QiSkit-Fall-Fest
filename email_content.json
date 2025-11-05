@@ -1,0 +1,19 @@
+{
+  "subject": "QiSkit Fall Fest Test",
+  "body": [
+    "Hello!<br><br>",
+    "You are recieving this email because you have signed up for the QiSkit fall fest.",
+    "Here are a few reminders:<br><br>",
+    "<ul><li>The QiSkit Fall Fest is starting this Friday (November 7th)!",
+    "This is happening in the <a href=https://maps.app.goo.gl/JZyfsG6sqepojPW3A>Rutherford Physics Building</a> on McGill campus, in the Bell room (Room 105).</li><br>",
+    "<li>Join our <a href=a.com>Discord</a> for updates and future resources!",
+    "All the communication for this event and future events will occur through this server.</li></ul><br>",
+
+    "To participate in this event, show the QR code attached below to the event organizers upon arrival.",
+    "We will be at the foyer of the building, so you should be able to find us!<br><br>",
+
+    "Thanks again for showing interest in the QiSkit Fall Fest! We hope to see you on Friday!<br>",
+    "- McGill Quantum Group"
+  ],
+  "attach_qr": true
+}
