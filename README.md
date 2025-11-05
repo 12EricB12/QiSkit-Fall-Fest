@@ -2,9 +2,15 @@
 Codebase for QR code generation, Email sending, and image hosting.
 
 ## Prerequisites
-- Node.js
-- Python 3.9 or higher  
-**If you want to run this yourself, you need a Google Cloud account! After creation, download the JSON file which contains all your secrets and the project ID (file name will be credentials_(giant hash)) and put it in the same directory as the cloned repo.  
+- Node.js (23.0.0+)
+- Python 3.9 or higher
+
+Make sure the following packages are installed for Node:
+- qrcode
+- jsqr
+- csv-parser
+
+**If you want to run this yourself, you need a Google Cloud account! After creation, download the JSON file, which contains all your secrets and the project ID (file name will be credentials_(giant hash)) and put it in the same directory as the cloned repo.  
   !! *NEVER SHARE YOUR CREDENTIALS JSON FILE OR ANY SENSITIVE DATA WITH OTHERS* !!**
 
 ## How to use
@@ -28,4 +34,4 @@ All the QR codes will save in a directory called "qrcodes". *This is the only di
 ### Email Sending
 Only works from local machines (no collab or online notebooks will work).  
 Jupyter notebook that sends emails. Read through the notebook to get an idea of what each cell does and what you need to modify to change the message body/attachments/etc.  
-*Important: Running sequentially will prompt you to sign in to your Gmail account with your currently active browser. This is just to authenticate your Gmail account with your Google Cloud app, which allows you to use the Gmail API. Sign in with the email you wish to use for the sending.*
+*Important: Running sequentially will prompt you to sign in to your Gmail account with your currently active browser. This is just to authenticate your Gmail account with your Google Cloud app, which allows you to use the Gmail API. Sign in with the email you wish to use for sending.*
